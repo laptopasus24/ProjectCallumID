@@ -169,7 +169,9 @@
         <span>Total Pembayaran</span>
         <span>Rp.36.000</span>
       </div>
+      <a href="/checkout2">
       <button class="mt-4 w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">Buat Pesanan</button>
+    </a>
     </section>
   </main>
 

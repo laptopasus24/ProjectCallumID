@@ -176,7 +176,7 @@
                                     class="w-16 py-2 text-center focus:outline-none" readonly>
                                 <button id="increase"
                                     class="bg-primary hover:bg-transparent border border-transparent hover:border-primary text-white hover:text-primary font-semibold  w-10 h-10 rounded-full focus:outline-none">+</button>
-                            </div><a href="/checkout">
+                            </div><a href="/checkout1">
                             <button
                                 class="bg-primary border border-transparent hover:bg-transparent hover:border-primary text-white hover:text-primary font-semibold py-2 px-4 rounded-full">
                                 Beli Sekarang</button>
@@ -528,7 +528,6 @@
     </div> --}}
 
 </footer>
-
 
 
 <script src="node_modules/swiper/swiper-bundle.js"></script>

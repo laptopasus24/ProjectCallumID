@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Halaman Checkout</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="assets/images/favicon.png" />
+    <title>Beranda</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">    
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body class="bg-gray-100">
 
@@ -56,7 +69,10 @@
         </div>
         <div class="flex justify-between items-center mt-6">
           <p class="text-gray-700 font-semibold">Total: <span class="text-xl font-bold">Rp300.000</span></p>
-          <button type="submit" class="px-6 py-2 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-200">Bayar Sekarang</button>
+          <a href="/checkout3">
+          <button class="px-6 py-2 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-200">Bayar Sekarang</button>
+        </a>
+        
         </div>
       </form>
     </div>

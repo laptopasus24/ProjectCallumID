@@ -34,8 +34,14 @@ Route::get('/detailproduk', function () {
 Route::get('/coba', function () {
     return view('coba');
 });
-Route::get('/checkout', function () {
+Route::get('/checkout1', function () {
     return view('checkout1');
+});
+Route::get('/checkout2', function () {
+    return view('checkout3');
+});
+Route::get('/checkout3', function () {
+    return view('checkout4');
 });
  
 // Route::get('/about', [UserController::class, 'about'])->name('about');
